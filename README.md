@@ -30,7 +30,7 @@ $ ./git_quine.py
 Git repository created in git_quine/
 $ ls git_quine/
 .git .gitignore git_quine.py  LICENSE  README.md
-$ diff -su <(git rev-parse HEAD) <(git -C git_quine/ rev_parse HEAD)
+$ diff -su <(git rev-parse HEAD) <(git -C git_quine/ rev-parse HEAD)
 Files /dev/fd/63 and /dev/fd/62 are identical
 ```
 
