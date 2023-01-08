@@ -44,7 +44,7 @@ def run(argv):
     commits = git_quine.get_commits()
     new_data = new_files(argv[2:])
     assert new_data
-    commits.append(('{} +0200'.format(int(time.time())), argv[1], new_data))  # FIXME: Hardcoded timezone
+    commits.append(('{} +0100'.format(int(time.time())), argv[1], new_data))  # FIXME: Hardcoded timezone
     print('COMMITS:', commits, file=sys.stderr)
     print(git_quine.wrap_commits(commits))
 

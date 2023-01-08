@@ -1,8 +1,6 @@
 # git_quine
 
-> A program that recreates its own repository
-
-Why?  Because, that's why!
+A program that recreates its own repository. Why?  Because fun!
 
 ## Table of Contents
 
@@ -17,7 +15,7 @@ There is nothing to install.
 
 ## Motivation
 
-> Bäärenkatapult!  "Warum?"  Fick Dich! Deshalb!
+> Bäärenkatapulte!
 
 ## Usage
 
